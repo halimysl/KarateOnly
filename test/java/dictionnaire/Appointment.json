@@ -1,0 +1,46 @@
+{
+  "home": {
+    "title": "{^title}CURA Healthcare Service",
+    "makeAppointment": "{^a}Make Appointment"
+  },
+  "urls": {
+    "homeUrl": "https://katalon-demo-cura.herokuapp.com/",
+    "logIn": "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    "appointment": "https://katalon-demo-cura.herokuapp.com/#appointment",
+    "appointmentSummary": "https://katalon-demo-cura.herokuapp.com/appointment.php#summary",
+    "historyUrl": "https://katalon-demo-cura.herokuapp.com/history.php#history"
+  },
+  "form":{
+    "readmissionBox": "#chk_hospotal_readmission",
+    "program": "#program",
+    "date": "#txt_visit_date",
+    "comment": "#txt_comment",
+    "book": "{^button}Book",
+    "readmission": "#hospital_readmission",
+    "facility": "#facility",
+    "selectFacility" : "select[name=facility]",
+    "formtitle": "{^h2}Make Appointment",
+
+    "medicaid": "#radio_program_medicaid",
+    "medicare": "#radio_program_medicare",
+    "medinone": "#radio_program_none"
+  },
+  "confirm": {
+    "confFacility": "#facility",
+    "confReadmission" : "#hospital_readmission",
+    "confProgram": "#program",
+    "confDate": "#visit_date",
+    "confComment": "#comment"
+  },
+  "errors":{
+    "loginError": "{^p}Login failed"
+  },
+
+  "username":"#txt-username",
+  "password": "#txt-password",
+  "connect": "#btn-login",
+  "menu": "#menu-toggle",
+  "disconnect": "{^a}Logout",
+  "history": "{^a}History",
+  "emptyHistory": "{^p}No appointment"
+}

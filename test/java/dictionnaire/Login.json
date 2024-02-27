@@ -1,0 +1,24 @@
+{
+  "home": {
+    "title": "{^title}Practice Test Automation",
+    "practiceLink": "{^a}Practice",
+    "linkToLogin": "{^a}Test Login Page"
+  },
+  "urls": {
+    "logIn": "https://practicetestautomation.com/practice-test-login/",
+    "logInSuccess": "https://practicetestautomation.com/logged-in-successfully/",
+    "homeUrl": "https://practicetestautomation.com/"
+  },
+  "errors":{
+    "userError": "Your username is invalid!",
+    "passwordError": "Your password is invalid!"
+  },
+
+  "practiceTitle": "{^h1}Logged In",
+  "login": "{^title}Test Login",
+  "user": "#username",
+  "password": "#password",
+  "connect": "{^button}Submit",
+  "disconnect": "{^a}Log out",
+  "error": "#error"
+}
